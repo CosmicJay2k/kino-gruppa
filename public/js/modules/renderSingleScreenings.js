@@ -11,6 +11,13 @@ export async function renderSingleScreenings(id) {
     day: "numeric",
   };
 
+  const headingDiv = document.createElement("div");
+  const heading = document.createElement("h2");
+  const headingText = document.createTextNode("Kommande Visningar:");
+  heading.append(headingText);
+  headingDiv.append(heading);
+  container.append(headingDiv);
+
   screenings.forEach((screening) => {
     const newScreening = document.createElement("div");
 
