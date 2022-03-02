@@ -21,6 +21,7 @@ app.set("views", "./views");
 
 app.get("/", (req, res) => {
   res.render("home");
+  // res.send('Yes, it works');
 });
 
 // Sending upcoming screenings to the browser at the page /api/screenings

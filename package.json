@@ -13,6 +13,7 @@
     "sass": "^1.49.7"
   },
   "devDependencies": {
+    "cypress": "^9.5.1",
     "jest": "^27.4.7",
     "nodemon": "^2.0.15",
     "supertest": "^6.2.2"
@@ -21,7 +22,8 @@
     "start": "npx sass src/scss/style.scss:public/css/style.css & node .",
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
     "dev": "nodemon .",
-    "w-sass": "npx sass -w src/scss/style.scss:public/css/style.css"
+    "w-sass": "npx sass -w src/scss/style.scss:public/css/style.css",
+    "cypress:open": "cypress open"
   },
   "repository": {
     "type": "git",
