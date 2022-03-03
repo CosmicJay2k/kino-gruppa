@@ -3,3 +3,4 @@ describe('Test my site is working', () => {
     cy.visit('http://localhost:5080')
   })
 })
+// add another function
