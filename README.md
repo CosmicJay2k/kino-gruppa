@@ -6,7 +6,7 @@ SCRUM is used to plan the group work.
 
 **Group A Participants**:
 - Lina
-- Ammar
+- Ammar Ali
 - Karim
 - Marcus
 - Fredric
